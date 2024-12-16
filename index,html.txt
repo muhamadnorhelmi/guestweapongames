@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weapon Guess Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Guess My Weapon Specialist</h1>
+        <p id="clue">Clue: This weapon is precise and used from long distances.</p>
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button id="submit-guess">Submit Guess</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
